@@ -1,3 +1,6 @@
+# Author: Werley Cordeiro
+# werleycordeiro@gmail.com
+
 # Package
 
 install.packages("quantmod")
