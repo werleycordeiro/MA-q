@@ -10,7 +10,7 @@ data = PBR$PBR.Close # Petróleo Brasileiro S.A. - Petrobras (PBR) - NYSE (USD)
 
 data = diff(data)[-1]
 
-q = 2
+q = 2 # MA Order
 
 para = matrix(0.2,1,(2+q))
 
