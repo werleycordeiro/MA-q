@@ -1,10 +1,11 @@
 ma_q = function(para,data,q){
 
+n = dim(data)[1]
 mu = para[1]
 theta = para[2:(q+1)]
 sigma2 = para[(2+q)]
 e = matrix(0,n,1)
-n = dim(data)[1]
+
 
 loglik = -.5 * n * log(2 * pi)
 
